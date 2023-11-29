@@ -28,3 +28,8 @@ from
         on flights.origin_airport_id = a1.airport_id
     join airports a2
         on flights.destination_airport_id = a2.airport_id
+
+
+
+
+        -- vja;ndva
