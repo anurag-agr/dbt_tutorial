@@ -17,6 +17,6 @@ select
     distance
 from 
     {{ source('landing_zone_flights', 'flights') }}
-{% if target.name == 'dev' %}
+{% if target.name == 'dev1' %}
     where fl_date <= '2019-01-03'
 {% endif %}
